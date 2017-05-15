@@ -19,6 +19,7 @@ class Home extends CI_Controller {
 		$this->data["css_scripts"] = $this->load->view("scripts/css","",true);
 		$this->data["js_scripts"] = $this->load->view("scripts/js","",true);
 		$this->data["meta_scripts"] = $this->load->view("scripts/meta","",true);
+		$this->data["announcements"] = "";
 		
 
 		
@@ -34,6 +35,13 @@ class Home extends CI_Controller {
 	public function index($value='')
 	{
 		$this->data["title"] = "Home";
+		$this->load->view("items",$this->data);
+	}
+
+	public function items($value='')
+	{
+		
+		$this->data["title"] = "Items";
 		$this->load->view("items",$this->data);
 	}
 

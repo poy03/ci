@@ -49,9 +49,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['canteen/sales'] = 'canteen/sales_';
-$route['admin/(:num)'] = 'admin/index/$1';
-$route['canteen/sales/receipt/(:num)'] = 'canteen/sales_receipt/$1';
 $route['default_controller'] = 'home';
 $route['404_override'] = 'My404';
 $route['translate_uri_dashes'] = FALSE;

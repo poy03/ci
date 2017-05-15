@@ -14,23 +14,23 @@ echo '
     <div class="collapse navbar-collapse" id="pos-navbar">
     <ul class="nav navbar-nav">
       <li><a href="'.base_url().'">Home</a></li>
-      <li><a href="'.base_url("items").'">Items</a></li>
-      <li><a href="'.base_url("sales").'">Sales</a></li>
-      <li><a href="'.base_url("purchases").'">Purchases</a></li>
-      <li><a href="'.base_url("receivables").'">Receivables</a></li>
-      <li><a href="'.base_url("expenses").'">Expenses</a></li>
-      <li><a href="'.base_url("payables").'">Payables</a></li>
+      <li><a href="'.base_url("home/items").'">Items</a></li>
+      <li><a href="'.base_url("home/sales").'">Sales</a></li>
+      <li><a href="'.base_url("home/purchases").'">Purchases</a></li>
+      <li><a href="'.base_url("home/receivables").'">Receivables</a></li>
+      <li><a href="'.base_url("home/expenses").'">Expenses</a></li>
+      <li><a href="'.base_url("home/payables").'">Payables</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-    <li><a href="'.base_url("reports").'">Reports</a></li>
+    <li><a href="'.base_url("home/reports").'">Reports</a></li>
     <li class="dropdown">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
       <span class="caret"></span></a>
       <ul class="dropdown-menu">
-        <li><a href="'.base_url("customers").'">Customers</a></li>
-        <li><a href="'.base_url("salesman").'">Salesman</a></li>
-        <li><a href="'.base_url("suppliers").'">Suppliers</a></li>
-        <li><a href="'.base_url("users").'">Users</a></li>
+        <li><a href="'.base_url("home/customers").'">Customers</a></li>
+        <li><a href="'.base_url("home/salesman").'">Salesman</a></li>
+        <li><a href="'.base_url("home/suppliers").'">Suppliers</a></li>
+        <li><a href="'.base_url("home/users").'">Users</a></li>
 
         <li><a href="#" id="app-settings"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
         <li><a href="#" id="app-settings"><span class="glyphicon glyphicon-cog"></span> Maintenance</a></li>

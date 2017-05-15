@@ -7,15 +7,16 @@
 </style>
 </head>
 
-<?php echo $navbar_scripts; ?>
 <body>
+<?php echo $navbar_scripts; ?>
+<?php echo $announcements; ?>
 
 <div class="container-fluid">
-	<div class="row">
-		<div class="col-sm-12">
-			
-		</div>
-	</div>
+  <div class="row">
+    <div class="col-sm-12">
+      
+    </div>
+  </div>
 
 </div>
 <?php echo $modaljs_scripts; ?>
